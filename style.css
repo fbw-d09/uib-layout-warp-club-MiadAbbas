@@ -38,7 +38,7 @@ a {
     color: black;
     transition: 1s;
 }
-main {
+.warp-club {
     height: 500px;
     display: flex;
 }
@@ -55,7 +55,7 @@ justify-content: center;
 align-items: center;
 }
 .headline {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     color: red;
     writing-mode: vertical-rl;
