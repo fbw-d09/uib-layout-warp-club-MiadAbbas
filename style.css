@@ -4,33 +4,30 @@
 body {
     font-family: 'Jura', sans-serif;
   }
-header {
+nav {
     background-color: rgba(128, 128, 128, 0.745);
     height: 30px;
     width: 100%;
-    position: fixed;
+    display: flex;
+    justify-content: space-around;
+
 }
-header > div {
+nav > div {
     color: aliceblue;
     display: inline-block;
-    padding-left: 20px;
     font-size: 1.5rem;
 }
-.contact{
-   
+a{
+   background-color: red;
+   border: 0.5px white solid;
+   border-radius: 5px;
     font-size: 1.2rem;
-    float: right;
     margin-right: 30px;
-}
-a {
-    background-color: red;
-    border-radius: 2px;
     height: 30px;
-    width: 80px;
     text-decoration: none;
     color: aliceblue;
-    
 }
+
 a:hover {
     background-color: antiquewhite;
     color: black;
@@ -48,7 +45,17 @@ main {
 .column1 {
 background-image:url(./assets/background.jpg);
 background-size: 100% 100%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
+.headline {
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    writing-mode: vertical-rl;
+  }
+  
 .column2 {
     background-image: url(./assets/main.jpg);
     background-size: 100% 100%;
