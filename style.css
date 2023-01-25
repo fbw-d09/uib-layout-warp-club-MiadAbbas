@@ -6,15 +6,16 @@ body {
   }
 nav {
     background-color: rgba(128, 128, 128, 0.745);
-    height: 30px;
+    height: 50px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-between;
+    align-items: center;
 }
-nav > div {
+li{
     display: inline-block;
     font-size: 1.5rem;
+    margin-right: 90px;
 }
 a {
     text-decoration: none;
@@ -26,7 +27,10 @@ a {
    border-radius: 5px;
     font-size: 1.2rem;
     margin-right: 30px;
-    height: 30px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+
 }
 
 .contact:hover {
@@ -35,13 +39,13 @@ a {
     transition: 1s;
 }
 main {
- 
     height: 500px;
     display: flex;
 }
 .box {
     height: 100%;
     width: 50%;
+    
 }
 .column1 {
 background-image:url(./assets/background.jpg);
